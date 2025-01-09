@@ -34,7 +34,7 @@ cd Option-Pricing-with-the-Black-Scholes-Model-in-Python
 ### Run the Script
 
 ```bash
-python main.py
+python black_scholes_model.py
 ```
 
 This will calculate the price of a call option and visualize its delta in relation to the price of the underlying asset.
