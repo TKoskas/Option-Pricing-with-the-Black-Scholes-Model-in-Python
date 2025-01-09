@@ -19,25 +19,49 @@ You can install these dependencies using pip:
 
 ```bash
 pip install numpy matplotlib scipy
+```
 
-Usage
-Clone the Repository:
+## Usage
+
+### Clone the Repository
 
 
+```bash
 git clone https://github.com/TKoskas/Option-Pricing-with-the-Black-Scholes-Model-in-Python
 cd Option-Pricing-with-the-Black-Scholes-Model-in-Python
-Run the Script:
+```
 
+### Run the Script
+
+```bash
 python main.py
+```
+
 This will calculate the price of a call option and visualize its delta in relation to the price of the underlying asset.
 
-Contributing
+## Contributing
 Contributions are welcome! To contribute to this project, please follow these steps:
 
-Fork the repository.
-Create a new branch for your feature (git checkout -b feature/new-feature).
-Commit your changes (git commit -m 'Add new feature').
-Push to the branch (git push origin feature/new-feature).
-Open a Pull Request.
-License
+1. Fork the repository.
+2. Create a new branch for your feature:
+
+    ```bash
+    git checkout -b feature/new-feature
+    ```
+
+3. Commit your changes:
+
+    ```bash
+    git commit -m 'Add new feature'
+    ```
+
+4. Push to the branch:
+
+    ```bash
+    git push origin feature/new-feature
+    ```
+
+5. Open a Pull Request.
+
+## License
 This project is licensed under the MIT License - see the LICENSE file for details.
